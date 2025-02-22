@@ -1,0 +1,11 @@
+<div *ngIf="display" class="PostForm">
+  <form (ngSubmit)="submitPost()">
+    <i class="fa-solid fa-circle-xmark" (click)="ToggleDisplay()"></i>
+
+    <label htmlFor="title">Title</label>
+    <input type="text" [(ngModel)]="newPost.title" name="Title" /> &nbsp;
+    <label htmlFor="">Thought</label>
+    <textarea name="Thought" [(ngModel)]="newPost.thought"></textarea>&nbsp;
+    <button type="submit" class="form-btn">Add Post</button>
+  </form>
+</div>

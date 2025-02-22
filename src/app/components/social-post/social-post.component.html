@@ -1,0 +1,23 @@
+<div class="body">
+  <div>
+    <div class="header">
+      <h1>My Thoughts</h1>
+    </div>
+    <button (click)="ToggleDisplay()" class="newThought-btn" >
+      New Thought
+    </button>
+    <div *ngIf="showForm" class="PostForm">
+      <app-post-form 
+        (PostCreated)="AddPost($event)"
+        class="postForm"
+      ></app-post-form>
+    </div>
+    <div class="postSection">
+      <app-single-post
+        (delete)="RemovePost($event)"
+        *ngFor="let post of GetPosts()"
+        [post]="post"
+      ></app-single-post>
+    </div>
+  </div>
+</div>

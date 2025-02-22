@@ -1,0 +1,73 @@
+.PostForm {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #79c5e8;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    /* flex-direction: column; */
+    /* border: 1px solid black;
+    border-radius: 2px; */
+  }
+  
+  .PostForm form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    /* max-width: 900px; */
+    margin-top: 150px;
+    background-color: #79c5e8;
+    padding: 20px;
+    row-gap: 5px;
+    border-radius: 5px;
+    height: 40%;
+    font-size: 1.2em;
+  }
+  
+  .PostForm i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
+  .PostForm input .PostForm textarea {
+    margin-bottom: 15px;
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Dosis", sans-serif;
+    font-size: 0.75em;
+  }
+  
+  .PostForm [type="submit"] {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .form-btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+}
+input, textarea{
+    padding:10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+textarea{
+    height: 100px;
+}
+label{
+    font-size: 20px;
+}
+
+
+
+
+

@@ -1,0 +1,17 @@
+h2 {
+    font-size: 24px;
+}
+.fa-solid, .fas{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+i:hover {
+    color: aqua;
+    transition-duration: 0.3s;
+}
+h3{
+    display: flex
+;
+    justify-content: space-between;
+}
